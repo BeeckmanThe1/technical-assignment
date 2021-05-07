@@ -1,0 +1,26 @@
+.sib-accordion {
+  cursor: pointer;
+  padding: $small-padding;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  background-color: $background-color;
+
+  &.sib-active-accordion, &:hover {
+    background-color: darken($background-color, 10);
+  }
+
+  & + .sib-accordion-panel {
+    transition: max-height 0.4s;
+    padding: 0 $medium-padding;
+    background-color: $secondary-color;
+    overflow: hidden;
+    max-height: 0;
+    padding-right: 0;
+  }
+
+  &.sib-active-accordion + .sib-accordion-panel {
+    max-height: unset;
+  }
+}

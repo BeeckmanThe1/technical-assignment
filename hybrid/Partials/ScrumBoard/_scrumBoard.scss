@@ -1,0 +1,11 @@
+.sib-scrum-board {
+  max-width: $max-width-container;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto;
+  grid-column-gap: $medium-padding;
+
+  @media(min-width: $breakpoint-sm) {
+    grid-template-columns: auto auto auto;
+  }
+}

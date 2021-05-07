@@ -1,0 +1,9 @@
+body#assignment-1 {
+  background-color: $background-color;
+  font-family: 'Roboto', sans-serif;
+  background-color: $background-color;
+
+  .sib-first-assignment-section {
+    margin: #{$navigation-height + $medium-padding} $medium-padding $medium-padding $medium-padding;
+  }
+}

@@ -1,0 +1,54 @@
+.sib-story-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: $xtra-small-padding 0;
+  background-color: $secondary-color;
+  padding: $small-padding;
+
+  .sib-story-description {
+    color: $neutral-color;
+    line-height: 1.3em;
+    max-height: 3.9em;
+    overflow: hidden;
+    margin: $small-padding 0;
+  }
+
+  .sib-bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .sib-assignee {
+      padding: 2px;
+      color: $secondary-color;
+      width: $large-padding;
+      height: $large-padding;
+      line-height: $large-padding;
+      border-radius: 50%;
+      text-align: center;
+    }
+
+    .sib-time-indication {
+      font-weight: bold;
+      font-size: 0.8em;
+
+      &.sib-primary {
+        color: $primary-color;
+      }
+
+      &.sib-success {
+        color: $success-color;
+      }
+
+      &.sib-danger {
+        color: $danger-color;
+      }
+
+      &.sib-neutral {
+        color: $neutral-color;
+      }
+    }
+  }
+}
+
