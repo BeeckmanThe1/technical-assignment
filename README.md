@@ -2,7 +2,11 @@
 
 ##What?
 
-Technical assignment during a Interview Process. Check originalAssignment folder to check the scope of this project.
+Technical assignment during a Interview Process. Check originalAssignment folder to check the scope of this project. To summarize:
+ - fetching restfull api
+ - reducing data
+ - unit testing
+ - implementing design
 
 ## Building the project locally:
 - node version: 10.19.0
