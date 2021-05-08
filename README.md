@@ -2,7 +2,7 @@
 
 ##What?
 
-Technical assignment during a Interview Process. Check originalAssignment folder to check the scope of this project. To summarize:
+Technical assignment during a Interview Process. Check originalAssignment folder to see the scope of this project. To summarize:
  - fetching restfull api
  - reducing data
  - unit testing
